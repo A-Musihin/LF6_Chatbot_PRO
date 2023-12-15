@@ -1,3 +1,17 @@
-{"KeyNo":"key1","AnswerNo":"Answer1"}
-{"KeyNo":"key2","AnswerNo":"Answer2"}
-{"KeyNo":"key3","AnswerNo":"Answer3"}
+{"KeyNo":"internet","AnswerNo":"Check the physical connection, restart the modem and router, update network drivers, review network configuration, and disable power-saving modes. If the issue persists, contact your Internet Service Provider (ISP)."}
+{"KeyNo":"wlan","AnswerNo":"Position the router optimally, minimize interference, update router firmware, change the Wi-Fi channel, and use strong encryption. If problems persist, restarting the router may be helpful."}
+{"KeyNo":"slow","AnswerNo":"Check for malware, clear temporary files, update your antivirus, review excessive background processes, and defragment your hard drive. Hardware upgrades may also be necessary."}
+{"KeyNo":"printer","AnswerNo":"Check the connection to the printer, update printer drivers, check ink levels, perform a test page, and check for blocked print jobs in the print queue."}
+{"KeyNo":"crashing","AnswerNo":"Check for overheating, update graphics and drivers, run a RAM test, and check for malware. If crashes persist, there may be a hardware issue that should be examined by a professional."}
+{"KeyNo":"password","AnswerNo":"Use the password recovery or reset options of your account. If not possible, contact the support of your platform or software for further instructions."}
+{"KeyNo":"blue","AnswerNo":"Blue screen errors often indicate a system issue. Record the error message, restart your computer, and search for the error online. If the problem persists, consult your IT support for assistance."}
+{"KeyNo":"recover","AnswerNo":"Check the recycle bin for recently deleted files. If the file is not there, consider using file recovery software or contacting IT support for guidance on potential backups."}
+{"KeyNo":"noisy","AnswerNo":"Unusual noises, such as clicking or grinding, could indicate a failing hard drive. Backup your data immediately and consult IT support for further diagnosis and potential hardware replacement."}
+{"KeyNo":"driver","AnswerNo":"Visit the website of your graphics card manufacturer, locate the latest drivers for your model, and follow the installation instructions. Regularly updating graphics drivers can improve system performance."}
+{"KeyNo":"usb","AnswerNo":"Check the physical connections, try different USB ports, update USB drivers, and test the devices on another computer if possible. If the issue persists, contact IT support for further troubleshooting."}
+{"KeyNo":"overheating","AnswerNo":"Ensure proper ventilation by cleaning dust from fans and vents. Consider using a cooling pad for laptops. Monitor running processes and close resource-intensive applications. If overheating persists, consult IT support for hardware inspection."}
+{"KeyNo":"freezing","AnswerNo":"Check for software conflicts or incompatible applications. Update your operating system and drivers. Run a malware scan, and if the issue persists, contact IT support for further diagnosis."}
+{"KeyNo":"audio","AnswerNo":"Check physical connections for speakers or headphones, update audio drivers, and ensure the volume is not muted. If problems persist, check for conflicting applications, and consult IT support for assistance."}
+{"KeyNo":"battery","AnswerNo":"Adjust power settings, close unnecessary background applications, reduce screen brightness, and disconnect external devices when not in use. Consider replacing the battery if it is old or no longer holds a charge."}
+{"KeyNo":"update","AnswerNo":"On Windows, use Windows Update in Settings. On macOS, use the Software Update feature in System Preferences. For third-party applications, use the respective update options within each application."}
+{"KeyNo":"dispose","AnswerNo":"Remove personal data by performing a factory reset, securely wipe storage, and consider recycling services or electronic waste disposal programs in your area. Some manufacturers also offer recycling or trade-in programs."}

@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-df = pd.read_excel('KeywordAnswerList.xlsx')
+df = pd.read_excel('List.xlsx')
 
 df.to_json('data.json', orient='records', lines=True)
 
