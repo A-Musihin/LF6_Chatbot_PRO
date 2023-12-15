@@ -1,14 +1,40 @@
 import os
 import json
+import random
+from collections import Counter
 
 def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def createIntent_Answers():
+def createIntent_Answers(UserInputList):
 
-    with open('data.json','r') as file:
-        data = [json.loads(line) for line in file]
+    random_answers = ["Unfortunately, I cannot offer an adequate answer. Would you please phrase your question differently?", "I'm sorry, but I can't give you a suitable answer. Could you please rephrase your question?", "Unfortunately, I don't have a suitable answer. Please formulate your question differently."]
 
-    intent_answers = {item['KeyNo']: item['AnswerNo'] for item in data}
+    with open('KeyPairList.json','r') as file:
+        BiggestCount = 0
 
-    return intent_answers
+        for line in file:
+            item = json.loads(line)
+            question_no = item['Question']
+            keywords_no = item['Keywords']
+            keywordcount_no = item['KeywordCount']
+            answer_no = item['Answer']
+
+            keywords_no = str(item['Keywords'])
+
+            keywords_no.lower()
+            splittedKeywords = keywords_no.split('_')
+
+            counter1 = Counter(splittedKeywords)
+            counter2 = Counter(UserInputList)
+
+            HitCount = sum((counter1 & counter2).values())
+
+            if HitCount > BiggestCount:
+                BiggestCount = HitCount
+                BestAnswer = answer_no
+
+    if BiggestCount <= 0:
+        return print(random.choice(random_answers))
+
+    return print(BestAnswer)
