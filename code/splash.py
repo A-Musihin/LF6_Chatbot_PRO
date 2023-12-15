@@ -10,4 +10,4 @@ def print_splash():
                                    |______|                
 """)
     
-    print("Welcome to Chatbot_Pro. Type exit to quit the software.")
+    print("Welcome to Chatbot_Pro. Type exit to quit.")

@@ -27,7 +27,6 @@ while user_input_loop != False:
             found_match = True
             break
         else:
-            #print(random.choice(random_answers))
             found_match = False
 
         if words == "exit":
@@ -37,5 +36,3 @@ while user_input_loop != False:
             
     if not found_match:
         print(random.choice(random_answers))
-
-#print("Einen schönen Tag wünschen wir Ihnen. Bis zum nächsten mal")
