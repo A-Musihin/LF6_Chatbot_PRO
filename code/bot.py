@@ -8,8 +8,6 @@ from DatabaseCommands import DBInsertRequest
 ######################################################################################
 
 
-
-
 clear_console()
 print_splash()
 
