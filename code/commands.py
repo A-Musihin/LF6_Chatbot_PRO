@@ -15,9 +15,9 @@ def createIntent_Answers(UserInputList):
 
         for line in file:
             item = json.loads(line)
-            question_no = item['Question']
+            #question_no = item['Question']
             keywords_no = item['Keywords']
-            keywordcount_no = item['KeywordCount']
+            #keywordcount_no = item['KeywordCount']
             answer_no = item['Answer']
 
             keywords_no = str(item['Keywords'])
